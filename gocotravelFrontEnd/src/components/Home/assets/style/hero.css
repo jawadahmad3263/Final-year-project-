@@ -1,0 +1,92 @@
+#main_hero{
+
+    background: url("../icons/pexels-elijah-o'donnell-5409363.jpg");
+    background-size: cover;
+    /* display: flex; */
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    height: 140vh;
+    max-width: 100%;
+    padding-top: 70px;
+    /* margin-top: 4%; */
+}
+
+.text_1{
+    color: white;
+    margin: auto;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    /* text-transform: uppercase; */
+    text-align: center;
+    margin-top: 10%;
+}
+.text_2{
+    color: #ffd405;
+    margin: auto;
+
+}
+
+.text_3{
+    color: white;
+    font-size: 50px;
+}
+
+.text_4{
+    margin: auto;
+}
+.text_5{
+    color: white;
+    font-size: 35px;
+}
+
+.search_btn{
+    background-color: #ffd405;
+    color: white;
+    border: 1px solid #ffd405;
+    /* border-radius:  14px 30px; */
+ 
+    cursor: pointer;
+}
+
+.bottom_section{
+    margin-top: 4%;
+    text-align: center;
+}
+
+.bottom_left{
+
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.bottom_left_text_1{
+    color: #ffd405;
+}
+.bottom_left_text_2{
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .text_5 {
+   
+        font-size: 20px;}
+  }
+  .text_1 {
+    font-size: 70px;
+}
+.text_3 {
+    
+    font-size: 28px;
+}
+.bottom_left {
+    /* margin-top: 10%; */
+    /* margin-left: 7%; */
+    padding: 3%;
+}
+  /* @media (min-width: 768px) and (max-width: 1024px){
+   
+  } */

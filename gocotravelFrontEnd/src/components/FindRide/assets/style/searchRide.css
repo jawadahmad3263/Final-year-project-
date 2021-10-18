@@ -1,0 +1,87 @@
+.searchRide {
+  padding: 10px;
+
+  border: 1px solid darkgray;
+  border-radius: 10px;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 9% !important;
+  margin-bottom: 3%;
+  align-items: center;
+  width: 55%;
+  background: rgb(255 255 255 / 45%) !important;
+}
+.ride-btn {
+  background-color: #ffd405 !important;
+  color: white !important;
+  border: 1px solid #ffd405 !important;
+}
+
+.ride-btn:hover {
+  background-color: #ffd405 !important;
+  color: white !important;
+  border: 1px solid #ffd405 !important;
+}
+.div-card {
+  margin-top: 12%;
+  padding: 18px;
+
+  width: 45%;
+  background: rgb(255 255 255 / 45%) !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-card > h4 {
+  color: white !important;
+}
+.white {
+  color: white !important;
+}
+.yellow {
+  color: #ffd405;
+  font-weight: 800;
+}
+.end-div {
+  padding: 4%;
+  margin-top: 12%;
+  font-size: 19px;
+  color: red;
+}
+/* .list-group-item {
+    background-color: #2e2d2d !important;
+} */
+
+/* .ant-card-contain-grid:not(.ant-card-loading) .ant-card-body {
+ 
+  background: #6f7477 !important;
+} */
+
+@media screen and (max-width: 768px) {
+  .searchRide {
+    padding: 10px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 41% !important;
+    margin-bottom: 3%;
+    align-items: center;
+    width: 88%;
+    background: rgb(255 255 255 / 45%) !important;
+  }
+
+  .ant-form .ant-form-item {
+    width: 96% !important;
+    margin-top: 4% !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .searchRide {
+    width: 80% !important;
+  }
+  .padding-top{
+    padding-top: 5%;
+  }
+}

@@ -1,0 +1,99 @@
+.vehicalForm {
+  padding: 20px;
+
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  background: rgb(255 255 255 / 45%) !important;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  align-items: center;
+  width: 35%;
+  /* margin-top: 11%; */
+}
+.rideForm {
+  padding: 20px;
+
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  background: rgb(255 255 255 / 45%) !important;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  align-items: center;
+  width: 35%;
+}
+.changeVehicalTitle {
+  margin: auto;
+  margin-top: 158px;
+  margin-bottom: 10px;
+  width: 35%;
+  border: 1px solid darkgray;
+  background: rgb(255 255 255 / 45%) !important;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.titleCss {
+  padding-bottom: 10px;
+}
+
+.ride-btn {
+  background-color: #ffd405 !important;
+  color: white !important;
+  border: 1px solid #ffd405 !important;
+}
+
+.ride-btn:hover {
+  background-color: #ffd405 !important;
+  color: white !important;
+  border: 1px solid #ffd405 !important;
+}
+
+.div-card {
+  margin-top: 12%;
+  padding: 18px;
+
+  width: 45%;
+  background: rgb(255 255 255 / 45%) !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-card > h4 {
+  color: white !important;
+}
+
+@media screen and (max-width: 768px) {
+  .changeVehicalTitle {
+    width: 88%;
+  }
+  .vehicalForm {
+    width: 88%;
+  }
+  .rideForm {
+    width: 88%;
+  }
+  .width-37 {
+    width: 37% !important;
+  }
+  .width-31 {
+    width: 31% !important;
+  }
+  .width-30 {
+    width: 30% !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .changeVehicalTitle {
+    width: 80%;
+  }
+  .vehicalForm {
+    width: 80%;
+  }
+  .rideForm {
+    width: 80%;
+  }
+}

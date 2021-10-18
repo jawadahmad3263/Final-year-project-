@@ -1,0 +1,83 @@
+.contactus_main{
+    
+    background-color: #ffd405;
+    height: 465px;
+}
+.contactus_details{
+display: flex;
+}
+.contactus_left{
+    width: 50%;
+}
+.contactus_right{
+    width: 50%;
+}
+
+.text__thin {
+    font-weight: 100 !important;
+}
+
+.call_us{
+    font-size: 90px;
+    line-height: 95px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+
+.context{
+    margin-left: -41%;
+    margin-top: 12%;
+}
+
+.phoneno{
+    font-size: 140px;
+    line-height: 95px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-top: 1%;
+}
+.text_6 {
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-left: -41%;
+    margin-top: 4%;}
+
+
+    
+    
+@media screen and (max-width: 768px) {
+    .contactus_left {
+        display: none;
+    }
+    .contactus_right {
+        width: auto;
+    }
+    .context {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .call_us {
+        font-size: 36px;
+    
+    }
+    .phoneno {
+        font-size: 46px;
+        line-height: 0px;
+        }
+        .contactus_details {
+         
+            padding: 2%;
+        }
+        .text_6{display: none;}
+        .text_3 {
+                     font-size: 38px;
+        }
+        .contactus_main {
+            
+            height: 223px;
+        }
+}

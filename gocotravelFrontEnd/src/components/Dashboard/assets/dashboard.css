@@ -1,0 +1,250 @@
+.personalInfo {
+  margin: auto;
+  width: 50%;
+}
+
+.mid {
+  border: 1px solid lightgrey;
+  padding: 18px;
+  border: 0;
+  position: relative;
+  word-wrap: break-word;
+  background: #fff;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+  margin-top: 30px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  width: 90%;
+  background: rgb(255 255 255 / 45%) !important;
+}
+
+.confirmUser {
+  width: 20%;
+  height: 30%;
+}
+.dashboard_main {
+  display: flex;
+  /* margin-top: 6%; */
+  /* height: 800px; */
+  background-color: #2e2d2d;
+}
+
+.ant-menu-root.ant-menu-inline {
+  /* box-shadow: 0 10px 30px -12px rgb(0 0 0 / 42%),
+    0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%); */
+  height: 688px;
+  /* background: rgba(5, 0, 0, 0.4) !important; */
+  background: #131313;
+  position: fixed;
+  height: 100vh;
+  padding: 22px;
+}
+
+.div-sidebar {
+  margin-top: 6%;
+}
+
+.div-mid {
+  margin-top: 6%;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #ffd405;
+}
+
+.menuitem {
+  color: white !important;
+  font-size: 18px;
+}
+.menuitem:hover {
+  color: white !important;
+  font-size: 18px;
+}
+.dash-btn {
+  background-color: #ffd405 !important;
+  color: white !important;
+  border: 1px solid #ffd405 !important;
+}
+
+.dash-btn:hover {
+  background-color: #ffd405 !important;
+  color: white !important;
+  border: 1px solid #ffd405 !important;
+}
+.ant-typography {
+  color: #fff;
+}
+h4.ant-typography,
+.ant-typography h4 {
+  color: white;
+}
+h5.ant-typography,
+.ant-typography h5 {
+  color: white;
+}
+
+.w1 {
+  color: white !important;
+}
+.w2 {
+  color: #ffd405;
+  font-weight: 800;
+}
+
+.active-ride-div {
+  color: #fff !important;
+}
+
+.pp {
+  color: #fff !important;
+}
+.hhr {
+  border: 1px solid #fff;
+}
+.ant-modal-title {
+  color: #fff !important;
+}
+/* className="active-ride-div" */
+/* className="dash-btn" */
+
+.ant-modal-content {
+  background: rgb(0 0 0 / 89%) !important;
+}
+.ant-modal-header {
+  background: rgb(0 0 0 / 89%) !important;
+}
+
+.list-group-item {
+  padding: 24px !important;
+  /* box-shadow: 0 0 15px rgb(0 0 0 / 20%); */
+  margin: 13px;
+}
+.req-user {
+  display: flex;
+  overflow: auto;
+  /* overflow: hidden; */
+  /* overflow-y: hidden; Hide vertical scrollbar */
+  /* overflow-x: hidden;  */
+}
+.req-user-list {
+  margin-left: 12%;
+
+  padding: 15px;
+}
+.confirm-user-list {
+  padding: 15px;
+}
+.co-traveller {
+  display: flex;
+
+  overflow: auto !important;
+}
+
+.ant-card-cover img {
+  border-radius: 2px 2px 0 0;
+  max-width: 170px;
+  max-height: 113px;
+}
+
+.vehical-main {
+  display: flex;
+  padding: 15px;
+}
+.vehical-pic {
+}
+.vehical-detail {
+  margin-left: 50px;
+}
+
+.oferRideMain .bg-oferRide {
+  background: #959a9e;
+}
+.list-group-item {
+  background-color: #2e2d2d !important;
+  
+}
+.sidebar-width {
+  width: 256px;
+}
+.mobile-slidbar-btn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .margin-top{
+    margin-top: 5px;
+  }
+  .dispaly-mobile {
+    display: block;
+  }
+  .list-group-item {
+    padding: 0% !important;
+  }
+  .mid {
+    margin-top: 94px;
+    width: 100%;
+  }
+  .div-mid {
+    padding: 4%;
+  }
+  .vehical-main {
+    display: block;
+  }
+  .vehical-detail {
+    margin-left: 0px !important;
+    padding: 6%;
+    margin-top: 3%;
+  }
+
+  .sidebar-dispaly {
+    display: none;
+  }
+  .mobile-slidbar-btn {
+    display: block;
+    margin-top: 32%;
+  }
+  .sidebar {
+    margin-top: 64% !important;
+  }
+  .cross-btn {
+    margin-left: 89%;
+    margin-top: -13%;
+  }
+
+  .div-sidebar {
+    width: 0% !important;
+  }
+  .ant-menu-inline,
+  .ant-menu-vertical,
+  .ant-menu-vertical-left {
+    border-right: 1px solid #f0f0f0;
+    background: #212529;
+    /* z-index: 1; */
+  }
+  .mid {
+    width: auto;
+  }
+  .dashbored_sbar {
+    margin-top: 19% !important;
+  }
+  .div-mid {
+    width: 100% !important;
+  }
+  .m-btn {
+    margin-top: -15% !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .font-size20{
+    font-size: 20px;
+  }
+  .ant-modal-content {
+    margin-top: 54%;
+  }
+  .vehical-main {
+    display: block;
+}
+.mid{
+  width: 98%;
+}
+}

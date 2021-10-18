@@ -1,0 +1,87 @@
+.login {
+  padding: 20px;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  /* background-color: lightgray; */
+  background: rgba(152, 153, 152, 0.3);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  align-items: center;
+  width: 30%;
+}
+.input_fields {
+  padding-top: 15%;
+}
+
+.title {
+  text-align: center;
+}
+
+.form-btn {
+  margin-left: -14%;
+}
+.b-button {
+  background-color: #ffd405;
+  color: white;
+  border: 1px solid #ffd405;
+  /* border-radius: 14px 30px; */
+  cursor: pointer;
+}
+.end-text {
+  color: white;
+  font-size: 20px;
+}
+.end-text2{
+  color: #ffd405;
+  font-size: 20px;
+}
+
+.ant-btn > a:only-child {
+  color: #ffd405;
+  font-size: 20px;
+}
+.h {
+  background: url("../icons/egor-myznik-A_UQ1uCB3EE-unsplash.jpg");
+  background-size: cover;
+  /* display: flex; */
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 92vh;
+  max-width: 100%;
+  padding-top: 70px;
+  margin-top: 4%;
+}
+.title > h1 {
+  color: #ffd405;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+  .login {
+    width: 89%;
+    margin-top: 25%;
+  }
+  .h {
+    background: url("../icons/jorgen-hendriksen-G04WOT5xtks-unsplash.jpg");
+    background-size: cover;
+    /* display: flex; */
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    max-height: 100vh;
+    max-width: 100%;
+    padding-top: 70px;
+    margin-top: 4%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .login {
+    width: 70%;
+    margin-top: 32%;
+  }
+}

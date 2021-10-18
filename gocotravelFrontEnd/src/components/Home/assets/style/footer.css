@@ -1,0 +1,72 @@
+.footer-section {
+    background: #2a2d33;
+    color: white;
+  }
+  .footer-section > div {
+    padding: 4rem 5rem;
+  }
+  .footer-office {
+    width: 30%;
+  }
+  .footer-services,
+  .footer-company {
+    width: 25%;
+  }
+  .footer-locations {
+    width: 20%;
+  }
+  .footer-headings {
+    font-family: "Avenir Heavy";
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10%;
+  }
+  .footer-items {
+    font-family: "Avenir Medium";
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+  }
+  .footer-items > img {
+    margin-right: 2%;
+  }
+  .footer-social-icons > div {
+    background: #666b72;
+    width: 41px;
+    height: 41px;
+    margin-right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .footer-items{
+      color: #ffd405;
+  }
+  .footer-items-copy{
+      color: white;
+  }
+  .hhr{
+    border:  1px solid #fff;
+}
+
+
+  @media screen and (max-width: 768px) {
+    
+    .footer-top-section {
+      text-align: center;
+  }
+ 
+   
+.footer-section > div {
+  padding: 1rem 2rem;
+  display: block !important;
+}
+.footer-company, .footer-office, .footer-services {
+  width: 100%;
+  margin-bottom: 10%;
+}
+.ft{    font-size: 41px;}
+.footer-copy-rights {
+  display: flex !important;
+}
+
+}

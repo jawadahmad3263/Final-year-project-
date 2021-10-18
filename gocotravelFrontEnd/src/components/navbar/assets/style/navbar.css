@@ -1,0 +1,80 @@
+.nave-t{
+color:white;
+font-weight: 500
+}
+
+.nave-g{
+    font-size: 25px;
+    color: #ffd405;
+    font-weight: 900
+
+}
+
+.navbarCss {
+  /* background: rgba( 0,0,0,0.4) !important; */
+  background: rgba(112, 112, 112, 0.4) !important;
+  /* background-color: rgba(100, 100, 100, 0.5); */
+
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px !important;
+  color: rgb(20, 20, 77) !important;
+  height: 90px;
+
+  position: fixed;
+  z-index: 999999999;
+}
+.carImage {
+  border-radius: 50% !important;
+}
+.menuItem {
+  margin-top: 12px;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu .ant-menu-item:hover{
+  margin-top: 14px !important;
+  color: white;
+  font-size: 18px !important;
+}
+.ant-menu-item:hover{
+    color: #ffd405
+}
+
+.ant-menu-horizontal {
+   
+     border-bottom: 0px solid  rgba(83, 83, 83, 0.4) !important; 
+}
+.ant-menu-item:hover{
+    color: #ffd405 !important;
+}
+.anticon svg:hover {
+    color: #ffd405 !important;
+}
+
+.ant-menu-horizontal > .ant-menu-submenu > .ant-menu-submenu-title {
+ 
+  color: #ffd405 !important;
+  font-size: 45px;
+  margin-left: -450%;
+  
+}
+.ant-menu-vertical {
+  height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 60%;
+    margin-top: 6% !important;
+    background: rgb(2, 2, 2) !important;
+    color: white !important;
+}
+.flot{ float: right;}
+
+@media screen and (max-width: 768px) {
+  .flot{ float: left !important; }
+ 
+  .nave-g {
+   
+    margin-left: 89%;
+}
+}
